@@ -9,6 +9,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("Hello World!");
             Console.WriteLine("Added another line");
             Console.WriteLine("Fix the bug");
+
+            // Try to create merge conflict
+            if (false)
+                Console.WriteLine("Unreachable");
+
             Console.WriteLine("Added this for Jay");
         }
     }
