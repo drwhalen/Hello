@@ -17,6 +17,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Console.WriteLine("Added inside of IF");
 
             Console.WriteLine("Added this for Jay");
+
+            // FIX 
+            Console.WriteLine("Fix for Bug 4");
         }
     }
 }
